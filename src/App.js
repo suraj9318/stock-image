@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { FaSearch } from 'react-icons/fa';
 
 import Photo from './Photo';
-const clientID = `?client_id=${process.env.REACT_APP_ACCESS_KEY}`;
+const clientID = `?client_id=R5ivAUxMUbd-IXoY_jbud1yRQBfteKpnev0aPWQmNxY`;
 const mainUrl = `https://api.unsplash.com/photos/`;
 const searchUrl = `https://api.unsplash.com/search/photos/`;
 
@@ -14,6 +14,7 @@ const searchUrl = `https://api.unsplash.com/search/photos/`;
 // if page 1 fetch images
 // otherwise setPage(1)
 // fix scroll functionality
+
 
 function App() {
   const [loading, setLoading] = useState(false);
